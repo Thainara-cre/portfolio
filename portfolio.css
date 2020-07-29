@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(183, 0, 255, 0.89);
+    margin: 0px;
+    padding: 0px;
+}
+
+body div{
+    width:800px;
+    margin: auto;
+    background-color: #ffffff;
+    margin-top: -16px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+    padding-bottom: 1px;
+    margin-bottom: 20px;
+    font-size:15pt;
+}
+
+body h1{
+    font-family: 'Dancing Script', cursive;
+    color: rgba(183, 0, 255, 0.89);
+    font-size: 30pt;
+    text-align: center;
+}
+
+body ul li{
+    color: rgba(183, 0, 255, 0.89);
+    margin: 3px;
+}
+
+body ul li span{
+    color: #000000;
+}
