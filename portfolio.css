@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 body{
     font-family: 'Times New Roman', Times, serif;
@@ -102,16 +103,30 @@ body ul li span{
     padding: 15px 20px;
     background: #fff;
   }
+
+.conteudo{
+    font-family: 'Pacifico', cursive;
+    background-color: #fff;
+    width: 300px;
+    height: 300px;
+}
+
+.conteudo p{
+    color: #000000;
+    top: 0px;
+    left: 0px;
+}
+
   .fechar {
     position: absolute;
     width: 30px;
-    right: -15px;
-    top: -20px;
+    right: 425px;
+    top: 100px;
     text-align: center;
     line-height: 30px;
     margin-top: 5px;
-    background: #ff4545;
+    background: rgba(183, 0, 255, 0.89);
     border-radius: 50%;
     font-size: 16px;
-    color: #8d0000;
-  }
+    color: #000000;
+}
