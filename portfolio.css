@@ -117,7 +117,7 @@ body ul li span{
     left: 0px;
 }
 
-  .fechar {
+.fechar {
     position: absolute;
     width: 30px;
     right: 425px;
@@ -129,4 +129,29 @@ body ul li span{
     border-radius: 50%;
     font-size: 16px;
     color: #000000;
+}
+
+@media only screen and (max-device-width: 700px) {
+    header{
+        width: 100%;
+    }
+    .principal{
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+    }
+}
+
+@media only screen and (max-device-width: 500px){
+    h2{
+        font-size: 35px;
+    }
+    header{
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+    }
+    .principal{
+        width: 100%;
+        margin-right: 0px;
+        
+    }
 }
