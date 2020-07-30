@@ -132,19 +132,35 @@ body ul li span{
 }
 
 @media only screen and (max-device-width: 700px) {
-    header{
-        width: 100%;
+
+    h1, li, h2, .principal, .nome, header{
+        max-width: 690px;
     }
-    .principal{
-        width: 100%;
-        margin: 0px 0px 0px 0px;
+
+    h1{
+        font-size: 40pt;
+        
     }
-    p{
+
+    h2{
+        font-size: 40pt;
+    }
+
+    .dados{
         max-width: 300px;
     }
+
+    .texto_modal{
+        max-width: 400px;
+    }
+
     .fechar{
         top: 3%;
         right: 3%;
+    }
+
+    .sabermais{
+        max-width: 300px;
     }
 }
 
@@ -173,12 +189,22 @@ body ul li span{
     .modal{
         width: 100%;
         margin-left: auto;
+        padding-left: 2px;
     }
     .fechar{
         top: 3%;
         right: 3%;
     }
-    p{
+    .dados{
         max-width: 300px;
     }
+    .texto_modal{
+        width: 400px;
+    }
+    #abrirModal{
+        max-width: 499px;
+        margin: 0px;
+    }
+
+
 }
