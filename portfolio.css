@@ -139,19 +139,46 @@ body ul li span{
         width: 100%;
         margin: 0px 0px 0px 0px;
     }
+    p{
+        max-width: 300px;
+    }
+    .fechar{
+        top: 3%;
+        right: 3%;
+    }
 }
 
 @media only screen and (max-device-width: 500px){
+    .nome{
+        max-width: 499px;
+        padding:0px;
+        margin: 0px;
+    }
+    body{
+        width: 100%;
+    }
     h2{
         font-size: 35px;
     }
     header{
         width: 100%;
+        padding: 0px 0px 0px 0px;
+        margin-left: auto;
         margin: 0px 0px 0px 0px;
     }
     .principal{
-        width: 100%;
+        max-width: 499px;
         margin-right: 0px;
-        
+    }
+    .modal{
+        width: 100%;
+        margin-left: auto;
+    }
+    .fechar{
+        top: 3%;
+        right: 3%;
+    }
+    p{
+        max-width: 300px;
     }
 }
